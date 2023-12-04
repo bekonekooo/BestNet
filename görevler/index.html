@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <script>
+        function sum(){
+            var a=document.getElementById("number1").value;
+            var b=document.getElementById("number2").value;
+            a=parseInt(a);
+            b=parseInt(b);
+            c=a+b;
+            alert(c);
+        }
+        function minus(){
+            var a=document.getElementById("number1").value;
+            var b=document.getElementById("number2").value;
+            a=parseInt(a);
+            b=parseInt(b);
+            c=a-b;
+            alert(c);
+        }
+        function divide(){
+            var a=document.getElementById("number1").value;
+            var b=document.getElementById("number2").value;
+            a=parseInt(a);
+            b=parseInt(b);
+            c=a/b;
+            alert(c);
+        }
+        function times(){
+            var a=document.getElementById("number1").value;
+            var b=document.getElementById("number2").value;
+            a=parseInt(a);
+            b=parseInt(b);
+            c=a*b;
+            alert(c);
+        }
+        //isterseniz bu js dosyaları için yeni bir sayfa oluşturup ordanda çekebilrim 2. görev için.
+      
+      </script>
+</head>
+<body>
+  
+    <h2>merhaba görevler</h2>
+    Number1=<input type="text" id="number1">
+    Number2=<input type="text" id="number2">
+    <br>
+    <br>
+    <br>
+    <input type="button" value="+" onclick="sum()" >
+    <input type="button" value="-" onclick="minus()" >
+    <input type="button" value="/" onclick="divide()" >
+    <input type="button" value="*" onclick="times()">
+
+
+
+    
+   
+    
+</body>
+</html>
